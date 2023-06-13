@@ -86,7 +86,7 @@ export const HomePage = () => {
                 maxHeight:{ xs: '70%', md: '80%'}
             }}
         >
-            <img src="/assets/images/personIco.png" alt="imagen" width='100%' height='100%' />
+            <img src="https://res.cloudinary.com/duugow4oz/image/upload/v1686632464/personIco_js2gmx.png" alt="imagen" width='100%' height='100%' />
         </Box>
         </Grid>
     </Grid>
