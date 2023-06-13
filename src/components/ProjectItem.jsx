@@ -4,6 +4,7 @@ import { Box, Button, CardContent, CardMedia, Grid, IconButton, Link, Typography
 export const ProjectItem = ({ name, description, imageUrl, projectUrl, gitUrl, darkIsActive = false }) => {
 
     const cardStyle ={ 
+        zIndex: '10',
         flexBasis: '40%' , 
         height: { xs: '180px',breakPoint300: '200px', sm: '38%'},  
         marginBottom: { xs: '4%', sm: ''},  

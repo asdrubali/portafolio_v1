@@ -209,7 +209,7 @@ export const ContactPage = () => {
             >
               <CardMedia
                   component='img'
-                  image='/assets/images/atentoLogo.png'
+                  image='./assets/images/atentoLogo.png'
                   sx={{
                     width:'100%',
                     transform: 'Scale(1.6)'

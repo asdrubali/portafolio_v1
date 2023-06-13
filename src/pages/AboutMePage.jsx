@@ -119,7 +119,7 @@ export const AboutMePage = () => {
           >
             <CardMedia
               component="img"
-              image="/assets/images/personIco.png"
+              image="./assets/images/personIco.png"
               alt="image"
               sx={{
                 height: '70%',

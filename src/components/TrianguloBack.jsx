@@ -20,6 +20,7 @@ export const TrianguloBack = ({ cant, color, min = 30 , max = 200, op = 0.4}) =>
 
         const boxStyle = {
             position: 'absolute',
+            zIndex: '0',
             opacity: op,
             top: `${ top }%`, 
             left: `${ left }%`, 

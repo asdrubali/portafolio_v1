@@ -14,34 +14,34 @@ export const SkilsPage = () => {
         backend: [
           {
             entorno: 'JavaScript' ,
-            icon: '/assets/images/jsIconMed.svg' ,
+            icon: './assets/images/jsIconMed.svg' ,
             tecnologias: ['NodeJS', 'TypeScript', 'APIs Rest'] 
           },
           {
             entorno: 'Python' ,
-            icon: '/assets/images/pythonIco.svg' ,
+            icon: './assets/images/pythonIco.svg' ,
             tecnologias: ['Fast API', 'NumPy', 'Pandas'] 
           },
           {
             entorno: 'Bases de datos' ,
-            icon: ( darkModeIsActive ? '/assets/images/dbIco.png' : '/assets/images/dbIcoLight.png'),
+            icon: ( darkModeIsActive ? './assets/images/dbIco.png' : './assets/images/dbIcoLight.png'),
             tecnologias: ['PosgreQSL', 'MySQL', 'MongoDB', 'Firebase' ] 
           },
         ],
         frontend: [
           {
             entorno: 'Bases de la WEB' ,
-            icon: '/assets/images/htmlIco.svg' ,
+            icon: './assets/images/htmlIco.svg' ,
             tecnologias: ['HTML', 'CSS', 'JavaScript' , 'Sass', 'Bootstrap'] 
           },
           {
             entorno: 'React' ,
-            icon: '/assets/images/reactIco.svg' ,
+            icon: './assets/images/reactIco.svg' ,
             tecnologias: ['Redux', 'Context', 'Hooks' ,'Material UI'] 
           },
           {
             entorno: 'Autenticación' ,
-            icon: '/assets/images/pythonIco.svg' ,
+            icon: './assets/images/pythonIco.svg' ,
             tecnologias: ['OAuth', 'JWT', 'Owasp'] 
           },
         ],
