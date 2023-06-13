@@ -119,7 +119,7 @@ export const AboutMePage = () => {
           >
             <CardMedia
               component="img"
-              image="./assets/images/personIco.png"
+              image="https://res.cloudinary.com/duugow4oz/image/upload/v1686632464/personIco_js2gmx.png"
               alt="image"
               sx={{
                 height: '70%',

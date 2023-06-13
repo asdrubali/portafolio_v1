@@ -34,7 +34,7 @@ export const ContactPage = () => {
         flexBasis='50%'
         sx={{
           ...gridsStyle,
-          backgroundImage: ( darkModeIsActive ? "url(/assets/images/fondoProjectsNoche.png)" : "linear-gradient(90deg, rgba(218,255,255,1) 0%, rgba(220,234,228,1) 50%, rgba(252,229,255,1) 92%)" ),
+          backgroundImage: ( darkModeIsActive ? "url('https://res.cloudinary.com/duugow4oz/image/upload/v1686632462/fondoProjectsNoche_hnx5vu.png')" : "linear-gradient(90deg, rgba(218,255,255,1) 0%, rgba(220,234,228,1) 50%, rgba(252,229,255,1) 92%)" ),
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat'
         }}
@@ -209,7 +209,7 @@ export const ContactPage = () => {
             >
               <CardMedia
                   component='img'
-                  image='./assets/images/atentoLogo.png'
+                  image='https://res.cloudinary.com/duugow4oz/image/upload/v1686632462/atentoLogo_oqexqm.png'
                   sx={{
                     width:'100%',
                     transform: 'Scale(1.6)'

@@ -14,35 +14,30 @@ export const SkilsPage = () => {
         backend: [
           {
             entorno: 'JavaScript' ,
-            icon: './assets/images/jsIconMed.svg' ,
+            icon: 'https://res.cloudinary.com/duugow4oz/image/upload/v1686632463/jsIconMed_achdcy.svg' ,
             tecnologias: ['NodeJS', 'TypeScript', 'APIs Rest'] 
           },
           {
             entorno: 'Python' ,
-            icon: './assets/images/pythonIco.svg' ,
+            icon: 'https://res.cloudinary.com/duugow4oz/image/upload/v1686632463/pythonIco_fxg06q.svg' ,
             tecnologias: ['Fast API', 'NumPy', 'Pandas'] 
           },
           {
             entorno: 'Bases de datos' ,
-            icon: ( darkModeIsActive ? './assets/images/dbIco.png' : './assets/images/dbIcoLight.png'),
+            icon: ( darkModeIsActive ? 'https://res.cloudinary.com/duugow4oz/image/upload/v1686632462/dbIco_dbb5qs.png' : 'https://res.cloudinary.com/duugow4oz/image/upload/v1686632461/dbIcoLight_nwuxv0.png'),
             tecnologias: ['PosgreQSL', 'MySQL', 'MongoDB', 'Firebase' ] 
           },
         ],
         frontend: [
           {
             entorno: 'Bases de la WEB' ,
-            icon: './assets/images/htmlIco.svg' ,
-            tecnologias: ['HTML', 'CSS', 'JavaScript' , 'Sass', 'Bootstrap'] 
+            icon: 'https://res.cloudinary.com/duugow4oz/image/upload/v1686632462/htmlIco_uvgyld.svg' ,
+            tecnologias: ['HTML', 'CSS', 'JavaScript' , 'Sass', 'Bootstrap', 'OAuth', 'JWT', 'Owasp'] 
           },
           {
             entorno: 'React' ,
-            icon: './assets/images/reactIco.svg' ,
+            icon: 'https://res.cloudinary.com/duugow4oz/image/upload/v1686632463/reactIco_vnljht.svg' ,
             tecnologias: ['Redux', 'Context', 'Hooks' ,'Material UI'] 
-          },
-          {
-            entorno: 'Autenticación' ,
-            icon: './assets/images/pythonIco.svg' ,
-            tecnologias: ['OAuth', 'JWT', 'Owasp'] 
           },
         ],
   }
@@ -75,7 +70,7 @@ export const SkilsPage = () => {
           direction='column'
           fontFamily='typography.fontFamily'
           sx={{
-            backgroundImage: "url('/assets/images/fondoBack.png ')",
+            backgroundImage: "url('https://res.cloudinary.com/duugow4oz/image/upload/v1686632462/fondoBack_i2tswg.png')",
             ...gridsStyle,
           }}
         >
@@ -132,7 +127,7 @@ export const SkilsPage = () => {
           direction='column'
           sx={{
             ...gridsStyle,
-            backgroundImage: "url('/assets/images/fondoFrontTran.png')",
+            backgroundImage: "url('https://res.cloudinary.com/duugow4oz/image/upload/v1686632463/fondoFrontTran_z9cj46.png')",
             backgroundColor: 'primary.dark',
             color: 'secondary.contrastText'
           }}

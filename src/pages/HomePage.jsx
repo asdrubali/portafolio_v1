@@ -9,7 +9,7 @@ export const HomePage = () => {
     const banerStyle ={
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundImage: ( darkModeIsActive ?  "url('./assets/images/BanerHomeDark.png')" : "url('./assets/images/BanerHome.png')"),
+        backgroundImage: ( darkModeIsActive ?  "url('https://res.cloudinary.com/duugow4oz/image/upload/v1686632462/banerHomeDark_spalrt.png')" : "url('https://res.cloudinary.com/duugow4oz/image/upload/v1686632464/BanerHome_btrqfw.png')"),
     }
 
   return (
