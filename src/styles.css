@@ -1,0 +1,350 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300 & display=swap');
+
+
+
+
+* {
+    font-family: 'roboto mono';
+}
+
+html {
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: auto;
+}
+
+.css-bjj58z-MuiToolbar-root {
+    min-height: 100% !important;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+
+.iconSkills {
+    width: 100%;
+    height: 100%;
+}
+
+#menu-appba{
+    padding-top: 1px !important; 
+    padding-bottom: 1px !important;
+}
+
+/* .onMouseHover:hover {
+    color:  ;
+    transform: scale(1.05) ;
+    transition: all 200ms;
+} */
+
+.onMouseHover:hover {
+    opacity: .4;
+    transform: scale(1.05) ;
+    transition: all 200ms;
+}
+
+
+
+
+.bola1 {
+    width: 10%;
+    height: 20%;
+    top: 8%;
+    left: 5%; 
+    animation: burbujaTrans1 10s infinite linear,  wave 6s infinite linear;    
+}
+
+.bola2 {
+    width: 12%;
+    height: 24%;
+    top: 5%;
+    left: 70%; 
+    animation: burbujaTrans2 13s infinite linear,  wave 6s infinite linear;    
+}
+
+.bola3 {
+    width: 9%;
+    height: 18%;
+    top: 57%;
+    left: 80%; 
+    animation: burbujaTrans3 10s infinite linear,  wave 6s infinite linear;    
+}
+
+.bola4 {
+    width: 8%;
+    height: 16%;
+    top: 65%;
+    left: 35%; 
+    animation: burbujaTrans4 18s infinite linear,  wave 6s infinite linear;    
+}
+
+.bola5 {
+    width: 15%;
+    height: 30%;
+    top: 60%;
+    left: 3%; 
+    animation: burbujaTrans5 25s infinite linear,  wave 6s infinite linear;    
+}
+
+.bola6 {
+    width: 23%;
+    height: 46%;
+    top: 10%;
+    left: 32%; 
+    animation: burbujaTrans6 20s infinite linear,  wave 6s infinite linear;
+}
+
+.bola7 {
+    width: 5%;
+    height: 10%;
+    top: 50%;
+    left: 65%; 
+    animation: burbujaTrans7 18s infinite linear,  wave 6s infinite linear;
+}
+
+.bola8 {
+    width: 17%;
+    height: 34%;
+    top: 68%;
+    left: 56%; 
+    animation: burbujaTrans8 15s infinite linear,  wave 6s infinite linear;
+}
+
+.rotateTriangle {
+    animation:  rotateFull 40s infinite linear;
+}
+
+.waveStyle{
+    animation: wave 6s infinite linear;
+}
+
+.rotateTriangleReverse {
+    animation: rotateFullReverse 35s infinite linear;
+}
+
+
+@keyframes wave {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+    }
+
+
+@keyframes burbujaTrans1 {
+    0% {
+        top: 8%;
+        left: 5%; 
+    }
+    50% {
+        top: 13%;
+        left: 10%; 
+    }
+    100% {
+        top: 8%;
+        left: 5%; 
+    }
+}
+
+@keyframes burbujaTrans2 {
+    0% {
+        top: 5%;
+        left: 70%; 
+    }
+    50% {
+        top: 0%;
+        left: 75%; 
+    }
+    100% {
+        top: 5%;
+        left: 70%; 
+    }
+}
+
+@keyframes burbujaTrans3 {
+    0% {
+        top: 57%;
+        left: 80%; 
+    }
+    50% {
+        top: 50%;
+        left: 78%; 
+    }
+    100% {
+        top: 57%;
+        left: 80%; 
+    }
+}
+
+@keyframes burbujaTrans4 {
+    0% {
+        top: 65%;
+        left: 35%;  
+    }
+    25% {
+        top: 60%;
+        left: 40%; 
+    }
+    50% {
+        top: 65%;
+        left: 43%; 
+    }
+    75% {
+        top: 70%;
+        left: 40%; 
+    }
+    100% {
+        top: 65%;
+        left: 35%; 
+    }
+}
+
+@keyframes burbujaTrans5 {
+    0% {
+        top: 60%;
+        left: 3%; 
+    }
+    25% {
+        top: 50%;
+        left: 15%; 
+    }
+    50% {
+        top: 45%;
+        left: 20%; 
+    }
+    75% {
+        top: 30%;
+        left: 15%; 
+    }
+    100% {
+        top: 60%;
+        left: 3%; 
+    }
+}
+
+@keyframes burbujaTrans6 {
+    0% {
+        top: 10%;
+        left: 32%; 
+    }
+    25% {
+        top: 15%;
+        left: 38%; 
+    }
+    50% {
+        top: 20%;
+        left: 42%; 
+    }
+    75% {
+        top: 15%;
+        left: 38%; 
+    }
+    100% {
+        top: 10%;
+        left: 32%; 
+    }
+}
+
+ 
+@keyframes burbujaTrans7 {
+    0% {
+        top: 50%;
+        left: 65%; 
+    }
+    25% {
+        top: 35%;
+        left: 66%;
+    }
+    50% {
+        top: 37%;
+        left: 74%; 
+    }
+    75% {
+        top: 43%;
+        left: 70%; 
+    }
+    100% {
+        top: 50%;
+        left: 65%; 
+    }
+}
+
+ 
+@keyframes burbujaTrans8 {
+    0% {
+        top: 68%;
+        left: 56%; 
+    }
+    25% {
+        top: 60%;
+        left: 56%;
+    }
+    50% {
+        top: 60%;
+        left: 62%; 
+    }
+    75% {
+        top: 64%;
+        left: 58%; 
+    }
+    100% {
+        top: 68%;
+        left: 56%; 
+    }
+}
+
+
+
+
+@keyframes rotateFull {
+    0% {
+      transform: rotate(0deg);
+    }
+    20% {
+      transform: rotate(180deg);
+    }
+    40% {
+      transform: rotate(100deg);
+    }
+    60% {
+      transform: rotate(250deg);
+    }
+    80% {
+      transform: rotate(150deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@keyframes rotateFullReverse {
+    0% {
+      transform: rotate(-0deg);
+    }
+    20% {
+      transform: rotate(-180deg);
+    }
+    40% {
+      transform: rotate(-100deg);
+    }
+    60% {
+      transform: rotate(-250deg);
+    }
+    80% {
+      transform: rotate(-150deg);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
